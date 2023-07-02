@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="addField">
+      <input type="text" placeholder="write book's name" />
+      <button>Add Book</button>
+      <button>Clear Story</button>
+    </div>
+    <div class="wrapper">
+      <div class="flex_elem">
+        <h2>Must Read</h2>
+        <div class="container listBook"></div>
+      </div>
+      <div class="flex_elem">
+        <h2>Readed</h2>
+        <div class="container readedBook"></div>
+      </div>
+      <div class="flex_elem">
+        <h2>Dropped Read</h2>
+        <div class="container droppedBook"></div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/Sortable/1.15.0/Sortable.min.js"
+      integrity="sha512-Eezs+g9Lq4TCCq0wae01s9PuNWzHYoCMkE97e2qdkYthpI0pzC3UGB03lgEHn2XM85hDOUF6qgqqszs+iXU4UA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="./js.js"></script>
+  </body>
+</html>
